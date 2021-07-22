@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFEE8C226A8785800AAE20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEE8C126A8785800AAE20B /* AppDelegate.swift */; };
+		3FFEE8C426A8785800AAE20B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEE8C326A8785800AAE20B /* SceneDelegate.swift */; };
+		3FFEE8C626A8785800AAE20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEE8C526A8785800AAE20B /* ViewController.swift */; };
+		3FFEE8C926A8785800AAE20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8C726A8785800AAE20B /* Main.storyboard */; };
+		3FFEE8CB26A8785D00AAE20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8CA26A8785D00AAE20B /* Assets.xcassets */; };
+		3FFEE8CE26A8785D00AAE20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8CC26A8785D00AAE20B /* LaunchScreen.storyboard */; };
+		3FFEE8D926A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEE8D826A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.swift */; };
+		3FFEE8E426A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFEE8E326A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.swift */; };
+		3FFEE8F226A90BFE00AAE20B /* OuiOUI.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8F126A90BFE00AAE20B /* OuiOUI.jpeg */; };
+		3FFEE8F426A90C1500AAE20B /* 6318548be37f8c33a9da5fc5217b5d9b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8F326A90C1500AAE20B /* 6318548be37f8c33a9da5fc5217b5d9b.png */; };
+		3FFEE8F626A90C1A00AAE20B /* 12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8F526A90C1A00AAE20B /* 12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png */; };
+		3FFEE8F826A9141000AAE20B /* 43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8F726A9140F00AAE20B /* 43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png */; };
+		3FFEE8FA26A9141400AAE20B /* 157294.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEE8F926A9141400AAE20B /* 157294.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFEE8D526A8785E00AAE20B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFEE8B626A8785800AAE20B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFEE8BD26A8785800AAE20B;
+			remoteInfo = Mariyah_A_ComicBookExercise;
+		};
+		3FFEE8E026A8785E00AAE20B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFEE8B626A8785800AAE20B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFEE8BD26A8785800AAE20B;
+			remoteInfo = Mariyah_A_ComicBookExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FFEE8BE26A8785800AAE20B /* Mariyah_A_ComicBookExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mariyah_A_ComicBookExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFEE8C126A8785800AAE20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFEE8C326A8785800AAE20B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FFEE8C526A8785800AAE20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FFEE8C826A8785800AAE20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFEE8CA26A8785D00AAE20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFEE8CD26A8785D00AAE20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFEE8CF26A8785D00AAE20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFEE8D426A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mariyah_A_ComicBookExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFEE8D826A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mariyah_A_ComicBookExerciseTests.swift; sourceTree = "<group>"; };
+		3FFEE8DA26A8785E00AAE20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFEE8DF26A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mariyah_A_ComicBookExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFEE8E326A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mariyah_A_ComicBookExerciseUITests.swift; sourceTree = "<group>"; };
+		3FFEE8E526A8785E00AAE20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFEE8F126A90BFE00AAE20B /* OuiOUI.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = OuiOUI.jpeg; path = ../../../OuiOUI.jpeg; sourceTree = "<group>"; };
+		3FFEE8F326A90C1500AAE20B /* 6318548be37f8c33a9da5fc5217b5d9b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6318548be37f8c33a9da5fc5217b5d9b.png; path = ../../../6318548be37f8c33a9da5fc5217b5d9b.png; sourceTree = "<group>"; };
+		3FFEE8F526A90C1A00AAE20B /* 12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png"; path = "../../../12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png"; sourceTree = "<group>"; };
+		3FFEE8F726A9140F00AAE20B /* 43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png"; path = "../../../43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png"; sourceTree = "<group>"; };
+		3FFEE8F926A9141400AAE20B /* 157294.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 157294.jpg; path = ../../../157294.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFEE8BB26A8785800AAE20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFEE8D126A8785E00AAE20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFEE8DC26A8785E00AAE20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFEE8B526A8785700AAE20B = {
+			isa = PBXGroup;
+			children = (
+				3FFEE8C026A8785800AAE20B /* Mariyah_A_ComicBookExercise */,
+				3FFEE8D726A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests */,
+				3FFEE8E226A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests */,
+				3FFEE8BF26A8785800AAE20B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFEE8BF26A8785800AAE20B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFEE8BE26A8785800AAE20B /* Mariyah_A_ComicBookExercise.app */,
+				3FFEE8D426A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.xctest */,
+				3FFEE8DF26A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFEE8C026A8785800AAE20B /* Mariyah_A_ComicBookExercise */ = {
+			isa = PBXGroup;
+			children = (
+				3FFEE8F126A90BFE00AAE20B /* OuiOUI.jpeg */,
+				3FFEE8F326A90C1500AAE20B /* 6318548be37f8c33a9da5fc5217b5d9b.png */,
+				3FFEE8F526A90C1A00AAE20B /* 12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png */,
+				3FFEE8C126A8785800AAE20B /* AppDelegate.swift */,
+				3FFEE8C326A8785800AAE20B /* SceneDelegate.swift */,
+				3FFEE8F726A9140F00AAE20B /* 43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png */,
+				3FFEE8C526A8785800AAE20B /* ViewController.swift */,
+				3FFEE8F926A9141400AAE20B /* 157294.jpg */,
+				3FFEE8C726A8785800AAE20B /* Main.storyboard */,
+				3FFEE8CA26A8785D00AAE20B /* Assets.xcassets */,
+				3FFEE8CC26A8785D00AAE20B /* LaunchScreen.storyboard */,
+				3FFEE8CF26A8785D00AAE20B /* Info.plist */,
+			);
+			path = Mariyah_A_ComicBookExercise;
+			sourceTree = "<group>";
+		};
+		3FFEE8D726A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFEE8D826A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.swift */,
+				3FFEE8DA26A8785E00AAE20B /* Info.plist */,
+			);
+			path = Mariyah_A_ComicBookExerciseTests;
+			sourceTree = "<group>";
+		};
+		3FFEE8E226A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFEE8E326A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.swift */,
+				3FFEE8E526A8785E00AAE20B /* Info.plist */,
+			);
+			path = Mariyah_A_ComicBookExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFEE8BD26A8785800AAE20B /* Mariyah_A_ComicBookExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFEE8E826A8785E00AAE20B /* Build configuration list for PBXNativeTarget "Mariyah_A_ComicBookExercise" */;
+			buildPhases = (
+				3FFEE8BA26A8785800AAE20B /* Sources */,
+				3FFEE8BB26A8785800AAE20B /* Frameworks */,
+				3FFEE8BC26A8785800AAE20B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mariyah_A_ComicBookExercise;
+			productName = Mariyah_A_ComicBookExercise;
+			productReference = 3FFEE8BE26A8785800AAE20B /* Mariyah_A_ComicBookExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFEE8D326A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFEE8EB26A8785E00AAE20B /* Build configuration list for PBXNativeTarget "Mariyah_A_ComicBookExerciseTests" */;
+			buildPhases = (
+				3FFEE8D026A8785E00AAE20B /* Sources */,
+				3FFEE8D126A8785E00AAE20B /* Frameworks */,
+				3FFEE8D226A8785E00AAE20B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFEE8D626A8785E00AAE20B /* PBXTargetDependency */,
+			);
+			name = Mariyah_A_ComicBookExerciseTests;
+			productName = Mariyah_A_ComicBookExerciseTests;
+			productReference = 3FFEE8D426A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FFEE8DE26A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFEE8EE26A8785E00AAE20B /* Build configuration list for PBXNativeTarget "Mariyah_A_ComicBookExerciseUITests" */;
+			buildPhases = (
+				3FFEE8DB26A8785E00AAE20B /* Sources */,
+				3FFEE8DC26A8785E00AAE20B /* Frameworks */,
+				3FFEE8DD26A8785E00AAE20B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFEE8E126A8785E00AAE20B /* PBXTargetDependency */,
+			);
+			name = Mariyah_A_ComicBookExerciseUITests;
+			productName = Mariyah_A_ComicBookExerciseUITests;
+			productReference = 3FFEE8DF26A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFEE8B626A8785800AAE20B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3FFEE8BD26A8785800AAE20B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3FFEE8D326A8785E00AAE20B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3FFEE8BD26A8785800AAE20B;
+					};
+					3FFEE8DE26A8785E00AAE20B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3FFEE8BD26A8785800AAE20B;
+					};
+				};
+			};
+			buildConfigurationList = 3FFEE8B926A8785800AAE20B /* Build configuration list for PBXProject "Mariyah_A_ComicBookExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFEE8B526A8785700AAE20B;
+			productRefGroup = 3FFEE8BF26A8785800AAE20B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFEE8BD26A8785800AAE20B /* Mariyah_A_ComicBookExercise */,
+				3FFEE8D326A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests */,
+				3FFEE8DE26A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFEE8BC26A8785800AAE20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFEE8F426A90C1500AAE20B /* 6318548be37f8c33a9da5fc5217b5d9b.png in Resources */,
+				3FFEE8CE26A8785D00AAE20B /* LaunchScreen.storyboard in Resources */,
+				3FFEE8F226A90BFE00AAE20B /* OuiOUI.jpeg in Resources */,
+				3FFEE8CB26A8785D00AAE20B /* Assets.xcassets in Resources */,
+				3FFEE8F626A90C1A00AAE20B /* 12-120520_captain-marvel-clipart-clip-art-captain-marvel-clipart.png in Resources */,
+				3FFEE8FA26A9141400AAE20B /* 157294.jpg in Resources */,
+				3FFEE8F826A9141000AAE20B /* 43-437438_bang-exploso-explosion-lucianoballack-bang-logo-clipart.png in Resources */,
+				3FFEE8C926A8785800AAE20B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFEE8D226A8785E00AAE20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFEE8DD26A8785E00AAE20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFEE8BA26A8785800AAE20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFEE8C626A8785800AAE20B /* ViewController.swift in Sources */,
+				3FFEE8C226A8785800AAE20B /* AppDelegate.swift in Sources */,
+				3FFEE8C426A8785800AAE20B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFEE8D026A8785E00AAE20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFEE8D926A8785E00AAE20B /* Mariyah_A_ComicBookExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFEE8DB26A8785E00AAE20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFEE8E426A8785E00AAE20B /* Mariyah_A_ComicBookExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFEE8D626A8785E00AAE20B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFEE8BD26A8785800AAE20B /* Mariyah_A_ComicBookExercise */;
+			targetProxy = 3FFEE8D526A8785E00AAE20B /* PBXContainerItemProxy */;
+		};
+		3FFEE8E126A8785E00AAE20B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFEE8BD26A8785800AAE20B /* Mariyah_A_ComicBookExercise */;
+			targetProxy = 3FFEE8E026A8785E00AAE20B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FFEE8C726A8785800AAE20B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFEE8C826A8785800AAE20B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFEE8CC26A8785D00AAE20B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFEE8CD26A8785D00AAE20B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFEE8E626A8785E00AAE20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FFEE8E726A8785E00AAE20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFEE8E926A8785E00AAE20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mariyah_A_ComicBookExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hi.Mariyah-A-ComicBookExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3FFEE8EA26A8785E00AAE20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mariyah_A_ComicBookExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hi.Mariyah-A-ComicBookExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3FFEE8EC26A8785E00AAE20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mariyah_A_ComicBookExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hi.Mariyah-A-ComicBookExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mariyah_A_ComicBookExercise.app/Mariyah_A_ComicBookExercise";
+			};
+			name = Debug;
+		};
+		3FFEE8ED26A8785E00AAE20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mariyah_A_ComicBookExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hi.Mariyah-A-ComicBookExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mariyah_A_ComicBookExercise.app/Mariyah_A_ComicBookExercise";
+			};
+			name = Release;
+		};
+		3FFEE8EF26A8785E00AAE20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mariyah_A_ComicBookExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hi.Mariyah-A-ComicBookExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mariyah_A_ComicBookExercise;
+			};
+			name = Debug;
+		};
+		3FFEE8F026A8785E00AAE20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mariyah_A_ComicBookExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hi.Mariyah-A-ComicBookExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mariyah_A_ComicBookExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFEE8B926A8785800AAE20B /* Build configuration list for PBXProject "Mariyah_A_ComicBookExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFEE8E626A8785E00AAE20B /* Debug */,
+				3FFEE8E726A8785E00AAE20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFEE8E826A8785E00AAE20B /* Build configuration list for PBXNativeTarget "Mariyah_A_ComicBookExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFEE8E926A8785E00AAE20B /* Debug */,
+				3FFEE8EA26A8785E00AAE20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFEE8EB26A8785E00AAE20B /* Build configuration list for PBXNativeTarget "Mariyah_A_ComicBookExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFEE8EC26A8785E00AAE20B /* Debug */,
+				3FFEE8ED26A8785E00AAE20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFEE8EE26A8785E00AAE20B /* Build configuration list for PBXNativeTarget "Mariyah_A_ComicBookExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFEE8EF26A8785E00AAE20B /* Debug */,
+				3FFEE8F026A8785E00AAE20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFEE8B626A8785800AAE20B /* Project object */;
+}
